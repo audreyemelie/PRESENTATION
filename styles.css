@@ -1,0 +1,672 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Playfair", sans-serif; */
+  font-family: "Urbanist", sans-serif;
+  background-size: cover;
+}
+header {
+  background-color: #fdfdfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_section {
+  display: flex;
+  align-items: center;
+}
+.link-nav {
+  display: flex;
+  align-items: center;
+}
+
+.link-nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 30px;
+  padding-right: 100px;
+}
+
+.link-nav a {
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.link-nav a:hover {
+  color: #f27092;
+  transition: 0.5s;
+}
+.hamburger {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+
+.img-h {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
+.img-h {
+  padding-right: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.bag {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+
+.btn-img {
+  border-radius: 110%;
+  padding: 10px 10px;
+  border: none;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+}
+.btn-img:hover {
+  background-color: #f27092;
+  transform: scale(1.1);
+  transition: all 1.5s ease-in-out;
+}
+
+.hero {
+  background-image: url(Images/good-back.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  padding-left: 50px;
+  text-transform: capitalize;
+  right: 0;
+  left: 0;
+}
+.hero {
+  padding-top: 200px;
+}
+
+.hero-collection {
+  background-color: #f27092;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-right: 500px;
+}
+
+.price {
+  font-size: 30px;
+  display: flex;
+}
+
+.price span {
+  color: #d10038;
+}
+
+.shoping {
+  margin-top: 40px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border: none;
+  background-color: #f88aa7;
+}
+.shoping:hover {
+  border: 1px solid black;
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
+}
+.proposals {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  color: #ffff;
+  background-color: #111021;
+}
+.line {
+  border-right: 1px solid grey;
+}
+.proposals-box {
+  display: flex;
+  gap: 15px;
+}
+
+.proposals img {
+  width: 40px;
+  height: 40px;
+}
+
+.skincare {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px;
+}
+
+.skincare h2 {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+.products {
+  display: flex;
+  gap: 10px;
+}
+
+.product-box {
+  width: 25%;
+}
+
+.skincare-img {
+  width: 100%;
+  height: 300px;
+}
+.discounts {
+  display: flex;
+  gap: 20px;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+}
+.discount-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url(Images/skinbyzaron-review.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 45vw;
+  height: 30vw;
+  padding-right: 250px;
+}
+
+.popular-products {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.popular-products h2 {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+.popular-prod {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.line-2 {
+  border-right: 1px solid #ffffff;
+}
+.popular-prod-1,
+.popular-prod-2 {
+  display: flex;
+  gap: 40px;
+}
+.p-img {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1.5px solid black;
+}
+.popular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+  border: 1.5px solid rgb(180, 180, 180);
+}
+.analytics-sec {
+  margin-top: 70px;
+  padding: 40px 10px;
+  background-color: #f27092;
+  display: flex;
+  color: #ffff;
+  justify-content: space-evenly;
+}
+.analytics-sec p {
+  color: #ffff;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+}
+.another {
+  background-image: url(Images/gold\ jewelry.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+  padding-left: 50px;
+  text-transform: capitalize;
+  padding: 200px 10px;
+}
+
+.another h1 {
+  font-size: 60px;
+  padding-right: 500px;
+}
+
+.price-2 {
+  font-size: 30px;
+  display: flex;
+}
+
+.price-2 span {
+  color: #d10038;
+}
+
+.shoping-2 {
+  margin-top: 40px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border: none;
+  background-color: #000000;
+  color: #ffff;
+}
+.shoping-2:hover {
+  transition: all 1s ease-in-out;
+  color: #f82f65;
+}
+.shoping-3 {
+  margin-top: 40px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border: none;
+  background-color: #000000;
+  color: #ffff;
+}
+.shoping-3:hover {
+  transition: all 1s ease-in-out;
+  background-color: #f82f65;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 300px;
+}
+.reviews p {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.reviews img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.img-sect {
+  display: flex;
+  border-bottom: 9.5px solid #f27092;
+}
+.img-sect img {
+  width: 20%;
+  height: 40vh;
+}
+
+.img-sect img:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+}
+.footer_section {
+  line-height: 25px;
+}
+
+footer {
+  display: flex;
+  background-color: #000000;
+  justify-content: space-around;
+  line-height: 30px;
+  color: #ffff;
+  padding: 30px 10px;
+}
+.footer p:hover {
+  color: #f27092;
+  transition: all 2s ease-in-out;
+}
+
+/* --- Media Queries for Responsiveness --- */
+
+/* Tablet Layouts (max-width: 1024px) */
+@media (max-width: 100px) {
+  .header_section h3 {
+    font-size: 1.25rem;
+  }
+    body{
+    width: 100%;
+  }
+
+  .link-nav ul {
+    padding-right: 50px;
+    gap: 15px;
+  }
+
+  .img-h {
+    padding-right: 50px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    padding-right: 0;
+  }
+
+  .proposals {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .products {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .product-box {
+    width: 45%;
+  }
+  .product-box img {
+    width: 300px;
+  }
+
+  .skincare h2,
+  .popular-products h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .popular-prod-1,
+  .popular-prod-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .popular {
+    width: 45%;
+  }
+
+  .analytics-sec {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .another h1 {
+    font-size: 40px;
+    padding-right: 0;
+  }
+
+  .reviews {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .reviews > div {
+    padding-left: 0;
+  }
+
+  .img-sect {
+    flex-wrap: wrap;
+  }
+
+  .img-sect img {
+    width: 50%;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+  }
+}
+
+/* Mobile Layouts (max-width: 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  body{
+    width: 100%;
+  }
+
+  .header_section,
+  .img-h {
+    padding-right: 0;
+  }
+
+  
+
+  .img-h {
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger menu on mobile */
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .proposals {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .proposals-box {
+    width: 100%;
+  }
+
+  .skincare h2,
+  .popular-products h2,
+  .another h1 {
+    font-size: 28px;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-box {
+    width: 90%;
+  }
+
+  .popular-prod {
+    flex-direction: column;
+  }
+
+  .popular-prod-1,
+  .popular-prod-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .popular {
+    width: 90%;
+  }
+
+  .analytics-sec {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .analytics-sec p {
+    font-size: 40px;
+  }
+
+  .reviews {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .reviews img {
+    margin-bottom: 20px;
+  }
+
+  .img-sect img {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile menu styles */
+  .link-nav {
+    position: absolute;
+    top: -1000px;
+    right: 0;
+    width: 50vw;
+    height: 100vh;
+    background-color: #f1f1e9;
+    padding-top: 80px;
+    transition: 1s all ease-in-out;
+  }
+  .link-nav.show {
+    top: 0;
+  }
+  .link-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .link-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  .hamburger {
+    display: block;
+    z-index: 1;
+    /* Show hamburger icon */
+  }
+}
+
+@media (max-width: 838px) {
+  body {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .skincare h2 {
+    font-size: 2.5rem;
+  }
+  .skincare {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-box {
+    width: 48%; /* Make products full width on mobile */
+    min-width: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .img-sect {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .img-sect img {
+    width: 100%;
+  }
+
+  .popular-prod-1,
+  .popular-prod-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular-prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .popular {
+    width: 100%;
+  }
+  .products {
+    display: flex;
+  }
+  .product-box {
+    width: 100%; /* Make products full width on mobile */
+    min-width: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .popular-products h2 {
+    font-size: 2.5rem;
+  }
+  .analytics-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+    body{
+    width: 100%;
+  }
+}
