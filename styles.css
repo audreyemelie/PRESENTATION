@@ -89,7 +89,7 @@ header {
   left: 0;
 }
 .hero {
-  padding-top: 200px;
+  padding-top: 80px;
 }
 
 .hero-collection {
@@ -307,6 +307,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 20px 300px;
+  gap: 30px;
 }
 .reviews p {
   display: flex;
@@ -343,19 +344,25 @@ footer {
   color: #ffff;
   padding: 30px 10px;
 }
-.footer p:hover {
-  color: #f27092;
+footer p:hover {
+  color: #f84071;
   transition: all 2s ease-in-out;
+  font-size: 20px;
+}
+footer li:hover {
+  color: #ff4778;
+  transition: all 1s ease-in-out;
+  font-size: 20px;
 }
 
 /* --- Media Queries for Responsiveness --- */
 
 /* Tablet Layouts (max-width: 1024px) */
-@media (max-width: 100px) {
+@media (max-width: 1024px) {
   .header_section h3 {
     font-size: 1.25rem;
   }
-    body{
+  body {
     width: 100%;
   }
 
@@ -461,7 +468,7 @@ footer {
     justify-content: space-between;
     padding: 1rem;
   }
-  body{
+  body {
     width: 100%;
   }
 
@@ -469,8 +476,6 @@ footer {
   .img-h {
     padding-right: 0;
   }
-
-  
 
   .img-h {
     flex-grow: 1;
@@ -514,6 +519,10 @@ footer {
   .product-box {
     width: 90%;
   }
+  .skincare img {
+    height: 300px;
+    width: 300px;
+  }
 
   .popular-prod {
     flex-direction: column;
@@ -527,6 +536,9 @@ footer {
 
   .popular {
     width: 90%;
+  }
+  .another h1 {
+    padding-right: 100px;
   }
 
   .analytics-sec {
@@ -543,6 +555,7 @@ footer {
   .reviews {
     padding: 20px;
     text-align: center;
+    flex-direction: column;
   }
 
   .reviews img {
@@ -551,7 +564,7 @@ footer {
 
   .img-sect img {
     flex-wrap: wrap;
-    width: 50%;
+    width: 20%;
   }
 
   footer {
@@ -560,6 +573,9 @@ footer {
     gap: 20px;
     padding: 20px;
     text-align: center;
+  }
+  footer li {
+    list-style-type:none;
   }
 }
 
@@ -666,7 +682,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-    body{
+  body {
     width: 100%;
   }
 }
