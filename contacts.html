@@ -15,17 +15,38 @@
       body {
         font-family: "Playfair", sans-serif;
         text-shadow: 1px 1px rgb(255, 117, 140);
+        padding: 50px 10px;
       }
       a {
         text-decoration: none;
         color: #000;
       }
-      .registeration{
+      .registeration {
         display: flex;
         flex-direction: column;
         gap: 30px;
         padding-left: 30px;
         padding-right: 40px;
+      }
+      .tube {
+        margin: 100px 40px;
+        background-color: #d8d8d8;
+        width: 300px;
+        border-radius: 30px;
+      }
+      .tube-1 {
+        border: solid rgb(255, 117, 140);
+        width: 280px;
+        border-radius: 30px;
+      }
+      button {
+        padding: 10px 5px;
+        background-color: rgb(255, 117, 140);
+        border: none;
+        width: 150px;
+      }
+      .check {
+        display: flex;
       }
     </style>
   </head>
@@ -40,9 +61,63 @@
       <h2>fill to get gift card with bonus 20% off all products</h2>
       <input type="text" placeholder="ENTER YOUR NAME" />
       <input type="number" placeholder="ENTER YOUR AGE" />
+      <form action="">
+        <input type="radio" name="gender" value="male" checked />MALE<br />
+        <input type="radio" name="gender" value="female" checked />FEMALE<br />
+        <input type="radio" name="gender" value="other" checked />OTHER<br />
+      </form>
       <input type="date" placeholder="DATE OF BIRTH" />
-      <input type="text" placeholder="ENTER YOUR EMAIL ACCOUNT">
-      <input type="text" placeholder="ENTER YOUR AGE" />
+      <input type="text" placeholder="ENTER YOUR EMAIL ACCOUNT" />
+      <button>SUBMIT</button>
+      <h2>
+        Do you want yours sent to your door step with a free lip gloss and mini
+        make-up kit?
+      </h2>
+      <input type="tel" placeholder="ENTER YOUR ADRESS" /><button>
+        ORDER NOW
+      </button>
+      <select class="countries">
+        Select your Country
+        <option value="">Select your Country</option>
+        <option value="">Nigeria</option>
+        <option value="">United Kingdom</option>
+        <option value="">Ghana</option>
+        <option value="">Togo</option>
+        <option value="">Kenya</option>
+        <option value="">Canada</option>
+        <option value="">China</option>
+        <option value="">Japan</option>
+        <option value="">Switzerland</option>
+        <option value="">United States</option>
+        <option value="">Brazil</option>
+        <option value="">Oman</option>
+        <option value="">Zimbabwe</option>
+        <option value="">Afganistan</option>
+        <option value="">Yeman</option>
+        <option value="">Niger</option>
+        <option value="">Sweden</option>
+        <option value="">Denmark</option>
+        <option value="">Tanzania</option>
+        <option value="">Zamba</option>
+        <option value="">Qatar</option>
+        <option value="">Wales</option>
+        <option value="">Jamaica</option>
+        <option value="">Venezuela</option>
+        <option value="">Vietnam</option>
+        <option value="">Finland</option>
+        <option value="">France</option>
+        <option value="">Spain</option>
+        <option value="">Djibouti</option>
+        <option value="">Dominican Republic</option>
+        <option value="">Russia</option>
+        <option value="">Rwanda</option>
+        <option value="">Romania</option>
+        <option value="">Panama</option>
+        <option value="">India</option>
+        <option value="">Portugal</option>
+        <option value="">Peru</option>
+        <option value="">Puerto Rico</option>
+      </select>
     </div>
   </body>
 </html>
