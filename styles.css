@@ -496,7 +496,7 @@ footer li:hover {
 
   .proposals {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
     padding: 20px;
   }
